@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MoteinoMEGA-eagle-import)(type Legacy)(uri ${KIPRJMOD}/MoteinoMEGA-eagle-import.lib)(options "")(descr ""))
+)

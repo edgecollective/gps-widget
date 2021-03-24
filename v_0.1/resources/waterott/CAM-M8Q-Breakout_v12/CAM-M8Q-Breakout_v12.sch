@@ -1,0 +1,577 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11821 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1250 1850 900  1850
+Connection ~ 1250 1850
+Text Label 1250 1850 0    10   ~ 0
+GND
+Wire Wire Line
+	1850 2900 1850 2800
+Wire Wire Line
+	1850 2800 1750 2800
+Text Label 1850 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	2200 1850 2100 1850
+Wire Wire Line
+	2100 1850 2100 1950
+Text Label 2200 1850 0    10   ~ 0
+GND
+Wire Wire Line
+	4500 850  4450 850 
+Text Label 4500 850  0    10   ~ 0
+GND
+Wire Wire Line
+	6400 1650 6200 1650
+Wire Wire Line
+	6200 1650 6200 2250
+Text Label 6400 1650 0    10   ~ 0
+GND
+Wire Wire Line
+	2200 1550 1250 1550
+Wire Wire Line
+	1250 1550 1250 1650
+Wire Wire Line
+	1250 1550 1250 1450
+Wire Wire Line
+	1250 1550 900  1550
+Wire Wire Line
+	900  1550 900  1650
+Connection ~ 1250 1550
+Text Label 2200 1550 0    10   ~ 0
+VCC
+Wire Wire Line
+	2600 2550 2700 2550
+Text Label 2600 2550 0    10   ~ 0
+VCC
+Wire Wire Line
+	6400 1550 6200 1550
+Wire Wire Line
+	6200 1550 6200 1450
+Text Label 6400 1550 0    10   ~ 0
+VCC
+Wire Wire Line
+	2200 1750 1900 1750
+Wire Wire Line
+	1900 1750 1900 2400
+Wire Wire Line
+	1900 2400 1750 2400
+Wire Wire Line
+	2200 850  2000 850 
+Text Label 2000 850  2    50   ~ 0
+RESET
+Wire Wire Line
+	6400 650  6100 650 
+Text Label 6100 650  2    50   ~ 0
+RESET
+Wire Wire Line
+	3600 1850 4650 1850
+Text Label 4650 1850 0    50   ~ 0
+SAFEBOOT
+Wire Wire Line
+	6100 750  6400 750 
+Text Label 6100 750  2    50   ~ 0
+SAFEBOOT
+Wire Wire Line
+	3600 1750 4650 1750
+Text Label 4650 1750 0    50   ~ 0
+LNA_EN
+Wire Wire Line
+	6100 850  6400 850 
+Text Label 6100 850  2    50   ~ 0
+LNA_EN
+Wire Wire Line
+	4450 1050 4650 1050
+Text Label 4650 1050 0    50   ~ 0
+TXD
+Wire Wire Line
+	6100 1750 6400 1750
+Text Label 6100 1750 2    50   ~ 0
+TXD
+Wire Wire Line
+	4450 1150 4650 1150
+Text Label 4650 1150 0    50   ~ 0
+RXD
+Wire Wire Line
+	6100 1850 6400 1850
+Text Label 6100 1850 2    50   ~ 0
+RXD
+Wire Wire Line
+	3600 1250 3700 1250
+Wire Wire Line
+	3700 1250 4650 1250
+Wire Wire Line
+	3700 750  3700 1250
+Text Label 4650 1250 0    50   ~ 0
+SCL
+Connection ~ 3700 1250
+Wire Wire Line
+	6100 1950 6400 1950
+Text Label 6100 1950 2    50   ~ 0
+SCL
+Wire Wire Line
+	3600 1350 3950 1350
+Wire Wire Line
+	3950 1350 4650 1350
+Wire Wire Line
+	3950 750  3950 1350
+Text Label 4650 1350 0    50   ~ 0
+SDA
+Connection ~ 3950 1350
+Wire Wire Line
+	6100 2050 6400 2050
+Text Label 6100 2050 2    50   ~ 0
+SDA
+Wire Wire Line
+	3600 1550 4650 1550
+Text Label 4650 1550 0    50   ~ 0
+EXT_INT
+Wire Wire Line
+	6100 950  6400 950 
+Text Label 6100 950  2    50   ~ 0
+EXT_INT
+Wire Wire Line
+	3600 1650 4650 1650
+Text Label 4650 1650 0    50   ~ 0
+TIMEPULS
+Wire Wire Line
+	6100 1050 6400 1050
+Text Label 6100 1050 2    50   ~ 0
+TIMEPULS
+Wire Wire Line
+	2200 1150 1100 1150
+Connection ~ 1100 1150
+Wire Wire Line
+	1100 600  1100 750 
+Wire Wire Line
+	1100 750  1200 750 
+Wire Wire Line
+	1200 750  1200 1050
+Wire Wire Line
+	1200 1050 2200 1050
+Connection ~ 1100 750 
+Wire Wire Line
+	650  600  700  600 
+Wire Wire Line
+	650  1150 700  1150
+Wire Wire Line
+	4050 850  3600 850 
+Wire Wire Line
+	4050 1050 3600 1050
+Wire Wire Line
+	4050 1150 3600 1150
+Wire Wire Line
+	3700 250  3700 350 
+Text Label 3700 250  0    10   ~ 0
+VCCIO
+Wire Wire Line
+	3950 250  3950 350 
+Text Label 3950 250  0    10   ~ 0
+VCCIO
+Wire Wire Line
+	2200 1650 1650 1650
+Wire Wire Line
+	1650 1650 1650 1450
+Connection ~ 1650 1650
+Text Label 2200 1650 0    10   ~ 0
+VCCIO
+Wire Wire Line
+	3200 2550 3100 2550
+Text Label 3200 2550 0    10   ~ 0
+VCCIO
+Wire Wire Line
+	6400 550  6200 550 
+Wire Wire Line
+	6200 550  6200 450 
+Text Label 6400 550  0    10   ~ 0
+VCCIO
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 1650 1950
+F 0 "#GND03" H 1650 1950 50  0001 C CNN
+F 1 "GND" H 1550 1850 59  0000 L BNN
+F 2 "" H 1650 1950 50  0001 C CNN
+F 3 "" H 1650 1950 50  0001 C CNN
+	1    1650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:CAPACITOR-0402 C3
+U 1 1 0AE61553
+P 1650 1750
+F 0 "C3" H 1650 1850 59  0000 C BNN
+F 1 "100n" H 1650 1650 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 1650 1750 50  0001 C CNN
+F 3 "" H 1650 1750 50  0001 C CNN
+	1    1650 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:CAPACITOR-0402 C4
+U 1 1 284EA6E9
+P 1250 1750
+F 0 "C4" H 1250 1850 59  0000 C BNN
+F 1 "100n" H 1250 1650 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCC #P+02
+U 1 1 339DE9D3
+P 1250 1350
+F 0 "#P+02" H 1250 1350 50  0001 C CNN
+F 1 "VCC" V 1150 1250 59  0000 L BNN
+F 2 "" H 1250 1350 50  0001 C CNN
+F 3 "" H 1250 1350 50  0001 C CNN
+	1    1250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 1250 1950
+F 0 "#GND02" H 1250 1950 50  0001 C CNN
+F 1 "GND" H 1150 1850 59  0000 L BNN
+F 2 "" H 1250 1950 50  0001 C CNN
+F 3 "" H 1250 1950 50  0001 C CNN
+	1    1250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:BATTERY-SMTU1225LF BAT1
+U 1 1 7B27D6FC
+P 1450 2600
+F 0 "BAT1" H 1250 3000 59  0000 L TNN
+F 1 "SMTU1225LF" H 1250 2200 59  0000 L BNN
+F 2 "CAM-M8Q-Breakout_v12:BAT-SMTU1225LF" H 1450 2600 50  0001 C CNN
+F 3 "" H 1450 2600 50  0001 C CNN
+	1    1450 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 1850 3000
+F 0 "#GND01" H 1850 3000 50  0001 C CNN
+F 1 "GND" H 1750 2900 59  0000 L BNN
+F 2 "" H 1850 3000 50  0001 C CNN
+F 3 "" H 1850 3000 50  0001 C CNN
+	1    1850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 2100 2050
+F 0 "#GND06" H 2100 2050 50  0001 C CNN
+F 1 "GND" H 2000 1950 59  0000 L BNN
+F 2 "" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:JUMPER2-0603-NC D_SEL1
+U 1 1 AA276B69
+P 4250 850
+F 0 "D_SEL1" H 4250 950 59  0000 C BNN
+F 1 "JUMPER2-0603-NC" H 4250 850 50  0001 C CNN
+F 2 "CAM-M8Q-Breakout_v12:JUMPER2-0603_NC" H 4250 850 50  0001 C CNN
+F 3 "" H 4250 850 50  0001 C CNN
+	1    4250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:MA06-1 J2
+U 1 1 F2D55355
+P 6700 1850
+F 0 "J2" H 6650 2180 59  0000 L BNN
+F 1 "MA06-1" H 6650 1350 59  0000 L BNN
+F 2 "CAM-M8Q-Breakout_v12:MA06-1" H 6700 1850 50  0001 C CNN
+F 3 "" H 6700 1850 50  0001 C CNN
+	1    6700 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:MA06-1 J3
+U 1 1 D6A0AFFD
+P 6700 850
+F 0 "J3" H 6650 1180 59  0000 L BNN
+F 1 "MA06-1" H 6650 350 59  0000 L BNN
+F 2 "CAM-M8Q-Breakout_v12:MA06-1" H 6700 850 50  0001 C CNN
+F 3 "" H 6700 850 50  0001 C CNN
+	1    6700 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:JUMPER2-0603-NC VCC-VIO1
+U 1 1 AB3DC9FE
+P 2900 2550
+F 0 "VCC-VIO1" H 2900 2650 59  0000 C BNN
+F 1 "JUMPER2-0603-NC" H 2900 2550 50  0001 C CNN
+F 2 "CAM-M8Q-Breakout_v12:JUMPER2-0603_NC" H 2900 2550 50  0001 C CNN
+F 3 "" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCCIO #VCC01
+U 1 1 755B46C5
+P 1650 1350
+F 0 "#VCC01" H 1650 1350 50  0001 C CNN
+F 1 "VCCIO" V 1550 1250 59  0000 L BNN
+F 2 "" H 1650 1350 50  0001 C CNN
+F 3 "" H 1650 1350 50  0001 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCC #P+01
+U 1 1 BCDF72C5
+P 2500 2550
+F 0 "#P+01" H 2500 2550 50  0001 C CNN
+F 1 "VCC" V 2400 2450 59  0000 L BNN
+F 2 "" H 2500 2550 50  0001 C CNN
+F 3 "" H 2500 2550 50  0001 C CNN
+	1    2500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCCIO #VCC02
+U 1 1 33D3FBA4
+P 3300 2550
+F 0 "#VCC02" H 3300 2550 50  0001 C CNN
+F 1 "VCCIO" V 3200 2450 59  0000 L BNN
+F 2 "" H 3300 2550 50  0001 C CNN
+F 3 "" H 3300 2550 50  0001 C CNN
+	1    3300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:CAPACITOR-0402 C1
+U 1 1 B742DA90
+P 900 1750
+F 0 "C1" H 900 1850 59  0000 C BNN
+F 1 "4u7" H 900 1650 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 900 1750 50  0001 C CNN
+F 3 "" H 900 1750 50  0001 C CNN
+	1    900  1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCC #P+03
+U 1 1 00F05DF6
+P 6200 1350
+F 0 "#P+03" H 6200 1350 50  0001 C CNN
+F 1 "VCC" V 6100 1250 59  0000 L BNN
+F 2 "" H 6200 1350 50  0001 C CNN
+F 3 "" H 6200 1350 50  0001 C CNN
+	1    6200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND04
+U 1 1 D896219B
+P 4500 950
+F 0 "#GND04" H 4500 950 50  0001 C CNN
+F 1 "GND" H 4400 850 59  0000 L BNN
+F 2 "" H 4500 950 50  0001 C CNN
+F 3 "" H 4500 950 50  0001 C CNN
+	1    4500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 6200 2350
+F 0 "#GND05" H 6200 2350 50  0001 C CNN
+F 1 "GND" H 6100 2250 59  0000 L BNN
+F 2 "" H 6200 2350 50  0001 C CNN
+F 3 "" H 6200 2350 50  0001 C CNN
+	1    6200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:CAM-M8Q GPS1
+U 1 1 6336A887
+P 2900 1350
+F 0 "GPS1" H 2400 2050 59  0000 L TNN
+F 1 "CAM-M8Q" H 2400 650 59  0000 L BNN
+F 2 "CAM-M8Q-Breakout_v12:CAM-M8Q" H 2900 1350 50  0001 C CNN
+F 3 "" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R1
+U 1 1 0BE11211
+P 900 1150
+F 0 "R1" H 900 1200 59  0000 C BNN
+F 1 "nc" H 900 1100 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 900 1150 50  0001 C CNN
+F 3 "" H 900 1150 50  0001 C CNN
+	1    900  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R2
+U 1 1 33E72084
+P 900 600
+F 0 "R2" H 900 650 59  0000 C BNN
+F 1 "nc" H 900 550 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 900 600 50  0001 C CNN
+F 3 "" H 900 600 50  0001 C CNN
+	1    900  600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R3
+U 1 1 2604F989
+P 1100 950
+F 0 "R3" H 1100 1000 59  0000 C BNN
+F 1 "0" H 1100 900 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 1100 950 50  0001 C CNN
+F 3 "" H 1100 950 50  0001 C CNN
+	1    1100 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:U.FL OUT1
+U 1 1 2A6DB119
+P 450 600
+F 0 "OUT1" H 550 700 59  0000 L BNN
+F 1 "RF_Out" H 550 400 59  0000 L BNN
+F 2 "CAM-M8Q-Breakout_v12:U.FL" H 450 600 50  0001 C CNN
+F 3 "" H 450 600 50  0001 C CNN
+	1    450  600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:U.FL IN1
+U 1 1 A9B80B55
+P 450 1150
+F 0 "IN1" H 550 1250 59  0000 L BNN
+F 1 "RF_In" H 550 950 59  0000 L BNN
+F 2 "CAM-M8Q-Breakout_v12:U.FL" H 450 1150 50  0001 C CNN
+F 3 "" H 450 1150 50  0001 C CNN
+	1    450  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 450 900
+F 0 "#GND07" H 450 900 50  0001 C CNN
+F 1 "GND" H 350 800 59  0000 L BNN
+F 2 "" H 450 900 50  0001 C CNN
+F 3 "" H 450 900 50  0001 C CNN
+	1    450  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 450 1450
+F 0 "#GND08" H 450 1450 50  0001 C CNN
+F 1 "GND" H 350 1350 59  0000 L BNN
+F 2 "" H 450 1450 50  0001 C CNN
+F 3 "" H 450 1450 50  0001 C CNN
+	1    450  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCCIO #VCC03
+U 1 1 26881259
+P 6200 350
+F 0 "#VCC03" H 6200 350 50  0001 C CNN
+F 1 "VCCIO" V 6100 250 59  0000 L BNN
+F 2 "" H 6200 350 50  0001 C CNN
+F 3 "" H 6200 350 50  0001 C CNN
+	1    6200 350 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R4
+U 1 1 1533BA2E
+P 4250 1050
+F 0 "R4" H 4250 1100 59  0000 C BNN
+F 1 "220" H 4250 1000 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 4250 1050 50  0001 C CNN
+F 3 "" H 4250 1050 50  0001 C CNN
+	1    4250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R5
+U 1 1 8A8B53B6
+P 4250 1150
+F 0 "R5" H 4250 1200 59  0000 C BNN
+F 1 "220" H 4250 1100 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 4250 1150 50  0001 C CNN
+F 3 "" H 4250 1150 50  0001 C CNN
+	1    4250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R6
+U 1 1 96E7E6D7
+P 3700 550
+F 0 "R6" H 3700 600 59  0000 C BNN
+F 1 "10k" H 3700 500 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 3700 550 50  0001 C CNN
+F 3 "" H 3700 550 50  0001 C CNN
+	1    3700 550 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:RESISTOR-0402 R7
+U 1 1 6C012852
+P 3950 550
+F 0 "R7" H 3950 600 59  0000 C BNN
+F 1 "10k" H 3950 500 59  0000 C TNN
+F 2 "CAM-M8Q-Breakout_v12:C0402" H 3950 550 50  0001 C CNN
+F 3 "" H 3950 550 50  0001 C CNN
+	1    3950 550 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCCIO #VCC04
+U 1 1 A809ADA9
+P 3700 150
+F 0 "#VCC04" H 3700 150 50  0001 C CNN
+F 1 "VCCIO" V 3600 50  59  0000 L BNN
+F 2 "" H 3700 150 50  0001 C CNN
+F 3 "" H 3700 150 50  0001 C CNN
+	1    3700 150 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAM-M8Q-Breakout_v12-eagle-import:VCCIO #VCC05
+U 1 1 F6E2E7FD
+P 3950 150
+F 0 "#VCC05" H 3950 150 50  0001 C CNN
+F 1 "VCCIO" V 3850 50  59  0000 L BNN
+F 2 "" H 3950 150 50  0001 C CNN
+F 3 "" H 3950 150 50  0001 C CNN
+	1    3950 150 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2875 2550 2925 2550
+$EndSCHEMATC

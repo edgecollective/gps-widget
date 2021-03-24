@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MoteinoMEGA)(type KiCad)(uri "$(KIPRJMOD)/MoteinoMEGA.pretty")(options "")(descr ""))
+)

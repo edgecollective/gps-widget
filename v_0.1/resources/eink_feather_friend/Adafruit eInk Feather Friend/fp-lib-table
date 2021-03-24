@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Adafruit eInk Feather Friend")(type KiCad)(uri "$(KIPRJMOD)/Adafruit eInk Feather Friend.pretty")(options "")(descr ""))
+)
